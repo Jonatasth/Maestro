@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>MAESTRO</title>
+    <meta charset="UTF-8"/> 
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </head>
+    <body>
+      <SECTION>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="img-responsive" src="img/maestro.png"/>
+            </div>
+          </div>
+          <div class="row"><h1 class="col-lg-6 col-lg-offset-3">Acesso</h1>
+          </div>
+          <div class="row">
+            <div>
+              <form action="autenticacao.php" method="post" class="col-lg-6 col-lg-offset-3">
+               <div class="form-group">
+                <label for="usuario">Usuário</label>
+       	        <input class="form-control" name="usuario" id="usuario" type="text">
+               </div>
+               <div class="form-group">
+         	      <label for="senha">Senha</label>
+         	      <input class="form-control" name="senha" id="senha"type="password"/>
+               </div>
+               <input name="entrar" type="submit" class="btn btn-default">
+              </form>      
+            </div>
+          </div>
+        </div>
+      </SECTION>
+    </body> 
+<html>   

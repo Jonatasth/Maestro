@@ -1,0 +1,15 @@
+<?php
+	$cursos=array(
+			array('titulo'=>'PHP',
+				  'turma'=>'CDS',
+				  'horario'=>'tarde'),
+			array('titulo'=>'Android',
+				  'turma'=>'CSP',
+				  'horario'=>'manhã'),
+	);
+	$usuarios=[
+			0=>['usuario'=>'joao',
+				'senha'=>'123'],
+			1=>['usuario'=>'pedro',
+				'senha'=>'123456'],
+	];
